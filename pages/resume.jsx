@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 const url = "../resume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const Resume = () => {
+const resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
 
@@ -67,4 +67,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default resume;
