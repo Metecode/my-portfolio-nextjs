@@ -1,43 +1,41 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import AboutImg from "../public/assets/Contact.jpg";
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-gray-600">
+            Hello! I'm Mete. I was born in Aydın, Turkey in June 2001.
+            Currently, I'm a 2. grade Computer Engineering at Sakarya
+            University. I enjoy researching, learning, thinking, and being
+            interested in technology. My main domain is front end, however, I am
+            interested in backend also.
           </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          <p className="py-2 text-gray-600">
+            Collaboration and continuous learning are essential to me. I enjoy
+            working with teams, exchanging ideas, and staying up-to-date with
+            the latest industry trends. I am dedicated to delivering
+            high-quality code and optimizing performance to create efficient and
+            engaging digital products. I would love the opportunity to
+            contribute my skills and creativity to your projects. Let's work
+            together to bring your digital experiences to life!
           </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
+          <Link href="/#projects">
+            <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>
     </div>

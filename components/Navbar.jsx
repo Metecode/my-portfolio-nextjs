@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/Asset 2.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -60,7 +60,7 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
+              width='80'
               height='50'
               className='cursor-pointer'
             />
@@ -119,8 +119,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='80'
+                    height='51'
                     alt='/'
                   />
                 </a>
@@ -134,7 +134,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className='w-[85%] md:w-[90%] py-4'>
-                Let&#39;s build something legendary together
+              Hello there, welcome to my personal website
               </p>
             </div>
           </div>
@@ -173,7 +173,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Connect
+              Let's Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a

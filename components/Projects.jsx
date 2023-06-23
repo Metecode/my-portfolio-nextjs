@@ -1,11 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
-import ProjectItem from './ProjectItem';
+import React from "react";
+import Hamburger from "../public/assets/projects/hamburgerorder.png";
+import Weather from "../public/assets/projects/havadurumu.png";
+import Person from "../public/assets/projects/personal.png";
+import Image from "next/image";
+import Link from "next/link";
+import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
@@ -17,29 +16,23 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
-          />
-          <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
+            title="Hamburger Order"
+            backgroundImg={Hamburger}
+            projectUrl="/hamburger"
             tech='React JS'
 
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
+            title="Weather App"
+            backgroundImg={Weather}
+            projectUrl="/weather"
             tech='React JS'
 
           />
           <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
+             title="Personal Website"
+             backgroundImg={Person}
+             projectUrl="/person"
             tech='Next JS'
 
           />
