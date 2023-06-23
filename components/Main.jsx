@@ -10,19 +10,19 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            Let's build something together
+            Let&apos;s build something together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]"> Mete</span>
+            Hi, I&apos;m <span className="text-[#5651e5]"> Mete</span>
           </h1>
           <h1 className="py-2 text-gray-700">
             {" "}
             A Junior Front-End Web Developer
           </h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I'm a front-end web developer specializing in building (and
+            I&apos;m a front-end web developer specializing in building (and
             occasionally designing) exceptional digital experiences, Currently,
-            I'm focused on building responsive front-end web applications while
+            I&apos;m focused on building responsive front-end web applications while
             Learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

@@ -13,8 +13,8 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hello! I'm Mete. I was born in Aydın, Turkey in June 2001.
-            Currently, I'm a 2. grade Computer Engineering at Sakarya
+            Hello! I&apos;m Mete. I was born in Aydın, Turkey in June 2001.
+            Currently, I&apos;m a 2. grade Computer Engineering at Sakarya
             University. I enjoy researching, learning, thinking, and being
             interested in technology. My main domain is front end, however, I am
             interested in backend also.
@@ -25,7 +25,7 @@ const About = () => {
             the latest industry trends. I am dedicated to delivering
             high-quality code and optimizing performance to create efficient and
             engaging digital products. I would love the opportunity to
-            contribute my skills and creativity to your projects. Let's work
+            contribute my skills and creativity to your projects. Let&apos;s work
             together to bring your digital experiences to life!
           </p>
           <Link href="/#projects">
