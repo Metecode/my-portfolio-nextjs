@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import hamburgerImg from "../public/assets/projects/hamburgerorder.png";
+import toyotaImg from "../public/assets/projects/toyota.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const hamburger = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={hamburgerImg}
+          src={toyotaImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Hamburger Order</h2>
-          <h3>React Js / PgSql / Node.js / Axios</h3>
+          <h2 className="py-2">Toyota Modernization Project</h2>
+          <h3>React Js / Node.js / Axios</h3>
         </div>
       </div>
 
@@ -26,9 +26,21 @@ const hamburger = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overbiew</h2>
-          <p>A React project I prepared for the database assignment.</p>
+          <p>
+            This is a React project written using React.js, Context API, and
+            hooks. It allows the user to enter and record a vehicle's error
+            detection and keeps a list of these errors.
+          </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4 ">Code</button>
+          <button className="px-8 py-2 mt-4 ">
+            <a
+              href="https://github.com/Metecode/TOYOTA-32bit-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              code
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -50,7 +62,7 @@ const hamburger = () => {
                 <RiRadioButtonFill className="pr-1" /> Node.js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> PgSQL
+                <RiRadioButtonFill className="pr-1" /> Json
               </p>
             </div>
           </div>

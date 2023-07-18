@@ -5,7 +5,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-const url = "../cv.pdf";
+const url = "../cv1.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Resume = () => {
@@ -45,7 +45,7 @@ const Resume = () => {
       </Document>
       <div>
         <button className="p-2 m-1 text-gray-100">
-          <a href="/resume.pdf" download>
+          <a href="/cv1.pdf" download>
             Click to download
           </a>
         </button>
