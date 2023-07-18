@@ -28,7 +28,7 @@ const hamburger = () => {
           <h2>Overbiew</h2>
           <p>
             This is a minimal project I created during my learning phase of
-            Redux. It's a CRUD application, which performs Create, Read, Update,
+            Redux. It&apos;s a CRUD application, which performs Create, Read, Update,
             and Delete operations.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">

@@ -28,7 +28,7 @@ const hamburger = () => {
           <h2>Overbiew</h2>
           <p>
             This is a React project written using React.js, Context API, and
-            hooks. It allows the user to enter and record a vehicle's error
+            hooks. It allows the user to enter and record a vehicle&apos;s error
             detection and keeps a list of these errors.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
