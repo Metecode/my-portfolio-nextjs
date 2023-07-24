@@ -37,7 +37,7 @@ const hamburger = () => {
               target="_blank"
               rel="noreferrer"
             >
-              code
+              Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4 ">
