@@ -31,7 +31,15 @@ const hamburger = () => {
             hooks. It allows the user to enter and record a vehicle&apos;s error
             detection and keeps a list of these errors.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          <button className="px-8 py-2 mt-4 mr-8">
+            <a
+              href="https://toyota32bit.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              code
+            </a>
+          </button>
           <button className="px-8 py-2 mt-4 ">
             <a
               href="https://github.com/Metecode/TOYOTA-32bit-project"
