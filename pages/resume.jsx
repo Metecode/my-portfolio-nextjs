@@ -45,7 +45,7 @@ const Resume = () => {
       </Document>
       <div>
         <button className="p-2 m-1 text-gray-100">
-          <a href="/cv1.pdf" download>
+          <a href="/cv.pdf" download>
             Click to download
           </a>
         </button>
