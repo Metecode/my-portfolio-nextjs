@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             Hello! I&apos;m Mete Uçar. I was born in Aydın, Turkey in June 2001. I
-            recently graduated from Sakarya University with a Bachelor's degree
+            recently graduated from Sakarya University with a Bachelor&apos;s degree
             in Computer Engineering. Currently, I&apos;m working as a Frontend
             Developer at 32Bit, where I build responsive and user-friendly web
             interfaces. While my main focus is on frontend technologies, I&apos;ve
