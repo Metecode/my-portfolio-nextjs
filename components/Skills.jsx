@@ -10,6 +10,7 @@ import Nodejs from "../public/assets/skills/nodejs.png";
 import Material from "../public/assets/skills/materialui.png";
 import Git from "../public/assets/skills/github1.png";
 import SpringBoot from "../public/assets/skills/springboot.png";
+import Figma from "../public/assets/skills/figma.png";
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-10">
@@ -116,6 +117,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Spring Boot</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Figma} width="64px" height="50px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Figma</h3>
               </div>
             </div>
           </div>

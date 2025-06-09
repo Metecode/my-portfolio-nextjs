@@ -13,11 +13,11 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hello! I'm Mete Uçar. I was born in Aydın, Turkey in June 2001. I
+            Hello! I&apos;m Mete Uçar. I was born in Aydın, Turkey in June 2001. I
             recently graduated from Sakarya University with a Bachelor's degree
-            in Computer Engineering. Currently, I’m working as a Frontend
+            in Computer Engineering. Currently, I&apos;m working as a Frontend
             Developer at 32Bit, where I build responsive and user-friendly web
-            interfaces. While my main focus is on frontend technologies, I’ve
+            interfaces. While my main focus is on frontend technologies, I&apos;ve
             also been developing my backend skills — particularly using Java and
             Spring Boot to build scalable and efficient RESTful APIs.
           </p>
@@ -29,7 +29,7 @@ const About = () => {
             technology. In my free time, I actively work on personal projects
             and explore full-stack development to strengthen my overall
             engineering skills. I would love the opportunity to contribute my
-            experience and energy to meaningful digital products. Let’s work
+            experience and energy to meaningful digital products. Let&apos;s work
             together to build something great!
           </p>
           <Link href="/#projects">
