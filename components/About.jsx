@@ -13,20 +13,24 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hello! I&apos;m Mete. I was born in Aydın, Turkey in June 2001.
-            Currently, I&apos;m a 2. grade Computer Engineering at Sakarya
-            University. I enjoy researching, learning, thinking, and being
-            interested in technology. My main domain is front end, however, I am
-            interested in backend also.
+            Hello! I'm Mete Uçar. I was born in Aydın, Turkey in June 2001. I
+            recently graduated from Sakarya University with a Bachelor's degree
+            in Computer Engineering. Currently, I’m working as a Frontend
+            Developer at 32Bit, where I build responsive and user-friendly web
+            interfaces. While my main focus is on frontend technologies, I’ve
+            also been developing my backend skills — particularly using Java and
+            Spring Boot to build scalable and efficient RESTful APIs.
           </p>
           <p className="py-2 text-gray-600">
-            Collaboration and continuous learning are essential to me. I enjoy
-            working with teams, exchanging ideas, and staying up-to-date with
-            the latest industry trends. I am dedicated to delivering
-            high-quality code and optimizing performance to create efficient and
-            engaging digital products. I would love the opportunity to
-            contribute my skills and creativity to your projects. Let&apos;s work
-            together to bring your digital experiences to life!
+            I am passionate about clean code, modern UI/UX design, and
+            continuous learning. Working in a real-world development environment
+            at 32Bit has taught me the importance of team collaboration,
+            performance optimization, and delivering real business value through
+            technology. In my free time, I actively work on personal projects
+            and explore full-stack development to strengthen my overall
+            engineering skills. I would love the opportunity to contribute my
+            experience and energy to meaningful digital products. Let’s work
+            together to build something great!
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">

@@ -3,6 +3,7 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import Typewriter from "./TypeWriter";
 
 const Main = () => {
   return (
@@ -15,15 +16,13 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#5651e5]"> Mete</span>
           </h1>
-          <h1 className="py-2 text-gray-700">
-            {" "}
-            A Junior Front-End Web Developer
-          </h1>
+
+          <Typewriter text="A Front-End Web Developer" speed={80} />
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             I&apos;m a front-end web developer specializing in building (and
             occasionally designing) exceptional digital experiences, Currently,
-            I&apos;m focused on building responsive front-end web applications while
-            Learning back-end technologies.
+            I&apos;m focused on building responsive front-end web applications
+            while Learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
